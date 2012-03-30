@@ -1,0 +1,27 @@
+
+Program:  Hyper-V PowerShell Utility Scripts
+Version:  1.0
+Date:     03/28/2012
+Website:  http://www.HumairAhmed.com
+
+Lead Developer:   Humair Ahmed 
+
+  
+License:
+ 
+Open source software being distributed under GPL license. For more information see here:
+http://www.gnu.org/copyleft/gpl.html. 
+
+Can edit and redistribute code as long as above reference of authorship is kept within the code.
+
+
+
+The scripts are run locally on the Hyper-V server from a remote desktop connection:
+
+1. getVMs.ps1 - prints a list of VMs (powered-on and powered-off VMs) on the Hyper-V server
+
+2. shutdownVM.ps1 - shutsdown the VM; if the VM name is not passed in as an argument, it will prompt you for the 
+                    name of the VM
+
+3. startVM.ps1 - starts the VM; if the VM name is not passed in as an argument, it will prompt you for the 
+                 name of the VM
